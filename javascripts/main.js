@@ -19,11 +19,13 @@ function open_contact(){
 }
 function open_tango(){
 	init();
-	tango.innerHTML = Tango("images/tango1_2015.jpg", "Tango1_2015", "600px", "500px");
+	//tango.innerHTML = Tango("images/tango1_2015.jpg", "Tango1_2015", "600px", "500px");
+	tango.innerHTML = "TEST2";
 }
 function open_library(){
 	init();
-	library.innerHTML = Library("images/library1_2015.jpg", "library1_2015", "600px", "500px");
+	library.innerHTML = "TEST3"
+	//library.innerHTML = Library("images/library1_2015.jpg", "library1_2015", "600px", "500px");
 }
 
 function Tango(href,alt,width,height){
