@@ -20,11 +20,11 @@ function open_contact(){
 function open_tango(){
 	init();
 	//tango.innerHTML = Tango("images/tango1_2015.jpg", "Tango1_2015", "600px", "500px");
-	tango.innerHTML = "TEST2";
+	tango.innerHTML = "TEST2"+'<hr/>';
 }
 function open_library(){
 	init();
-	library.innerHTML = "TEST3"
+	library.innerHTML = "TEST3"+'<hr/>';
 	//library.innerHTML = Library("images/library1_2015.jpg", "library1_2015", "600px", "500px");
 }
 
